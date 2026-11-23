@@ -1,46 +1,25 @@
-
-// QA Portfolio - Dark / Light Mode
-
-const themeToggle = document.getElementById("theme-toggle");
-const root = document.documentElement;
-
-// Restore the previously selected theme
-let savedTheme = "dark";
-
-try {
-    savedTheme = localStorage.getItem("portfolio-theme") === "light"
-        ? "light"
-        : "dark";
-} catch (error) {
-    // Use the default theme if storage is unavailable
-}
-
-function applyTheme(theme) {
-    root.setAttribute("data-theme", theme);
-
-    themeToggle.textContent =
-        theme === "dark" ? "☀ Light" : "☾ Dark";
-
-    themeToggle.setAttribute(
-        "aria-label",
-        theme === "dark"
-            ? "Switch to light mode"
-            : "Switch to dark mode"
-    );
-}
-
-applyTheme(savedTheme);
-
-// Switch between dark and light themes
-themeToggle.addEventListener("click", () => {
-    const currentTheme = root.getAttribute("data-theme");
-    const newTheme = currentTheme === "dark" ? "light" : "dark";
-
-    applyTheme(newTheme);
-
-    try {
-        localStorage.setItem("portfolio-theme", newTheme);
-    } catch (error) {
-        // Theme switching remains available without storage
-    }
-});
+'use strict';
+const toggle=document.querySelector('#theme-toggle');
+function theme(value){document.documentElement.dataset.theme=value;toggle.textContent=value==='dark'?'☀ Light':'☾ Dark';toggle.setAttribute('aria-label',value==='dark'?'Switch to light mode':'Switch to dark mode');}
+let saved='dark';try{if(localStorage.getItem('portfolio-theme')==='light')saved='light';}catch{}theme(saved);
+toggle.addEventListener('click',()=>{const next=document.documentElement.dataset.theme==='dark'?'light':'dark';theme(next);try{localStorage.setItem('portfolio-theme',next);}catch{}});
+// Public-facing draft: client identities and project names require disclosure review.
+const projects=[
+['Care Homes Management System','healthcare','Reeson Care Homes','Headchannel','✚','Care documentation, HR modules and configurable reports.',['Functional testing','Reporting','Regression'],['Verification of care and HR modules.','Validation of PDF and Excel exports, filtering, layout and completeness.','Requirements analysis and exploratory testing.']],
+['Claims Management System','healthcare','Not specified','Billennium','⇄','Healthcare financial document workflows on the Pega platform.',['Integration','Workflow','Functional testing'],['Verification of financial document workflows and permission limits.','Functional, exploratory and regression testing.','Test cases and defect reporting.']],
+['Virtual Events HUB','healthcare','Roche','Billennium','▷','Virtual events and educational content management.',['CMS','UI/UX','Exploratory'],['Testing event calendars and content for different event stages.','Verification of invitation and mailing features.','Test case preparation and defect reporting.']],
+['Affiliate Resource Center','healthcare','Roche','Billennium','▤','Medical knowledge platform.',['Search','Functional testing'],['Verification of categorized materials, search and filters.','Exploratory and UI/UX testing.']],
+['HCP Locator','healthcare','Novo Nordisk','Billennium','◎','Healthcare professional search and technical localization.',['Localization','Regression'],['Technical localization testing across more than 20 language versions.','Verification of layout, character display and map functionality.']],
+['EPLAN','engineering','EPLAN','EPLAN','⚙','ECAD software and integrations.',['Desktop','Integration'],['Testing within the engineering software environment.']],
+['PROJECT complete marking','engineering','Phoenix Contact','EPLAN','⚙','Engineering marking application.',['Desktop testing'],[]],
+['PROJECT complete planning','engineering','Phoenix Contact','EPLAN','⚙','Engineering planning application.',['Desktop testing'],[]],
+['clipx ENGINEER','engineering','Phoenix Contact','EPLAN','⚙','Engineering application.',['Desktop testing'],[]],
+['DaCapo','other','Not specified','Headchannel','♫','Music education application.',['Software testing'],[]]
+];
+const buttons=[...document.querySelectorAll('[data-category]')], client=document.querySelector('#client'), grid=document.querySelector('#project-grid'), count=document.querySelector('#count');
+const categories=['all','healthcare','engineering','other'];let category='all';
+function element(tag,text,cls){const node=document.createElement(tag);if(text!==undefined)node.textContent=text;if(cls)node.className=cls;return node;}
+function render(){const subset=projects.filter(p=>category==='all'||p[1]===category);const previous=client.value;const names=[...new Set(subset.map(p=>p[2]))].sort();client.replaceChildren(new Option('All clients',''),...names.map(n=>new Option(n,n)));client.value=names.includes(previous)?previous:'';buttons.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.category===category)));const results=subset.filter(p=>!client.value||p[2]===client.value);grid.replaceChildren();for(const [name,cat,customer,company,icon,description,tags,details] of results){const card=element('article');const symbol=element('div',icon,'project-icon');symbol.setAttribute('aria-hidden','true');card.append(symbol,element('p',cat.toUpperCase(),'project-category'),element('h3',name),element('p',customer),element('p',description));const chips=element('div',undefined,'tags');tags.forEach(t=>chips.append(element('span',t)));card.append(chips);const more=element('details');more.append(element('summary','View project details'),element('p','Project company: '+company));if(details.length){const list=element('ul');details.forEach(d=>list.append(element('li',d)));more.append(list);}card.append(more);grid.append(card);}count.textContent=`Showing ${results.length} of ${projects.length} projects`;}
+function fromHash(scroll){const hash=location.hash.slice(1);const next=hash==='projects'?'all':categories.includes(hash)?hash:null;if(next!==null){category=next;client.value='';render();if(scroll)document.querySelector('#projects').scrollIntoView();}}
+buttons.forEach(b=>b.addEventListener('click',()=>{const target=b.dataset.category==='all'?'projects':b.dataset.category;if(location.hash==='#'+target){category=b.dataset.category;client.value='';render();}else location.hash=target;}));
+client.addEventListener('change',render);document.querySelector('#reset').addEventListener('click',()=>{client.value='';if(location.hash==='#projects'){category='all';render();}else location.hash='projects';});window.addEventListener('hashchange',()=>fromHash(true));render();fromHash(true);
