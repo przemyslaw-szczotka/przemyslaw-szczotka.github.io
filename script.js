@@ -10,11 +10,11 @@ const projects=[
 ['Virtual Events HUB','healthcare','Roche','Billennium','▷','Virtual events and educational content management.',['CMS','UI/UX','Exploratory'],['Testing event calendars and content for different event stages.','Verification of invitation and mailing features.','Test case preparation and defect reporting.']],
 ['Affiliate Resource Center','healthcare','Roche','Billennium','▤','Medical knowledge platform.',['Search','Functional testing'],['Verification of categorized materials, search and filters.','Exploratory and UI/UX testing.']],
 ['HCP Locator','healthcare','Novo Nordisk','Billennium','◎','Healthcare professional search and technical localization.',['Localization','Regression'],['Technical localization testing across more than 20 language versions.','Verification of layout, character display and map functionality.']],
-['EPLAN','engineering','EPLAN','EPLAN','⚙','ECAD software and integrations.',['Desktop','Integration'],['Testing within the engineering software environment.']],
-['PROJECT complete marking','engineering','Phoenix Contact','EPLAN','⚙','Engineering marking application.',['Desktop testing'],[]],
-['PROJECT complete planning','engineering','Phoenix Contact','EPLAN','⚙','Engineering planning application.',['Desktop testing'],[]],
-['clipx ENGINEER','engineering','Phoenix Contact','EPLAN','⚙','Engineering application.',['Desktop testing'],[]],
-['DaCapo','other','Not specified','Headchannel','♫','Music education application.',['Software testing'],[]],
+['EPLAN','engineering','Phoenix Contact','EPLAN Software & Service','⚙','ECAD software and integrations.',['Desktop','Integration'],['Testing within the engineering software environment.']],
+['PROJECT Complete Marking','engineering','Phoenix Contact','EPLAN Software & Service','⚙','Engineering marking application.',['Desktop testing'],[]],
+['PROJECT Complete Planning','engineering','Phoenix Contact','EPLAN Software & Service','⚙','Engineering planning application.',['Desktop testing'],[]],
+['clipx ENGINEER','engineering','Phoenix Contact','EPLAN Software & Service','⚙','Engineering application.',['Desktop testing'],[]],
+['DaCapo','other','DaCapo Music Shop','Headchannel','♫','Music education application.',['Software testing'],[]],
 ['QA Portfolio Web Application','personal','Personal project','Independent project (AI-assisted development)','⌘','Design, implementation and testing of a responsive web application presenting professional software testing experience.',['Jira','GitHub','HTML','CSS','JavaScript','Manual QA','CI/CD'],['Status: In progress (2026).','Requirements definition and project tracking in Jira.','AI-assisted implementation and deployment using GitHub Pages and GitHub Actions.','Manual verification of theme switching, mobile layout and project filtering is ongoing.','Planned: test cases, defect reports and test execution documentation.']]
 ];
 const buttons=[...document.querySelectorAll('[data-category]')], client=document.querySelector('#client'), grid=document.querySelector('#project-grid'), count=document.querySelector('#count');
