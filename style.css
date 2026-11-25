@@ -23,3 +23,6 @@ html[data-theme=light] .contact-actions .contact-button{border-color:#2563eb;col
 
 /* EN/PL language control */
 .header-controls{display:flex;align-items:center;gap:10px;flex-shrink:0}.language-switch{display:flex;gap:4px}.language-switch button{padding:5px 9px;font-weight:600;font-size:.85rem}.language-switch button[aria-pressed=true]{background:#2563eb;color:#fff;border-color:#2563eb}.stats>a>span[data-i18n]{display:block}.stats>a b span[data-i18n]{font-size:inherit;color:inherit}.header-controls #theme-toggle{white-space:nowrap}nav{flex-wrap:wrap;gap:12px}.nav-links{gap:12px}html{scroll-padding-top:160px}@media(max-width:850px){nav{padding:12px 0}.header-controls{margin-left:auto}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* v0.5.1: collapse expanded project from its bottom edge */
+.project-collapse{display:block;margin:16px 0 0 auto;padding:6px 0 2px;background:transparent;border:0;border-radius:3px;color:var(--accent);font-size:.85rem;line-height:1.5;font-weight:400;text-align:right}.project-collapse:hover{text-decoration:underline;text-underline-offset:3px}details:not([open])>.project-collapse{display:none}

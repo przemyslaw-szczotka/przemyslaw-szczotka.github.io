@@ -104,5 +104,6 @@
   "healthcare": "HEALTHCARE",
   "engineering": "ENGINEERING",
   "other": "OTHER",
-  "personal": "PERSONAL PROJECT"
+  "personal": "PERSONAL PROJECT",
+  "collapse": "Collapse ↑"
 }

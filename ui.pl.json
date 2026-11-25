@@ -104,5 +104,6 @@
   "healthcare": "MEDYCYNA",
   "engineering": "INŻYNIERIA",
   "other": "INNE",
-  "personal": "PROJEKT OSOBISTY"
+  "personal": "PROJEKT OSOBISTY",
+  "collapse": "Zwiń ↑"
 }
