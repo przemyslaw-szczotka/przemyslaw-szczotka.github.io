@@ -7,3 +7,6 @@
 .stats{gap:0}.stats>a{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:16px 12px;color:var(--text);position:relative;border-radius:8px;cursor:pointer}.stats>a+a::before{content:"";position:absolute;left:0;top:18%;bottom:18%;width:1px;background:var(--border)}.stats strong{font-size:2.5rem;line-height:1.2;margin-bottom:8px}.stats span{font-size:.85rem}.stats>a:hover{background:var(--surface)}.stats>a:hover b{text-decoration:underline;text-underline-offset:4px}@media(max-width:600px){.stats>a+a::before{top:0;bottom:auto;left:15%;right:15%;width:auto;height:1px}}
 
 .collaborations-grid{grid-template-columns:repeat(3,minmax(0,1fr));align-items:stretch}.collaborations-grid article p{margin:8px 0}.collaborations-grid article h3{color:var(--text)}@media(max-width:850px){.collaborations-grid{grid-template-columns:1fr}}
+
+/* QA-22: improve professional profile readability */
+#about p:not(.eyebrow){font-size:17px;}
