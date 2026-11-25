@@ -316,7 +316,9 @@
       "Category and client filters",
       "Deep links",
       "Light and dark themes",
-      "GitHub Pages deployment"
+      "GitHub Pages deployment",
+      "JSON-based project catalogue",
+      "Screenshot galleries"
     ],
     "responsibilities": [
       "Requirements and acceptance criteria",
@@ -339,6 +341,24 @@
         "label": "GitHub repository",
         "url": "https://github.com/przemyslaw-szczotka/przemyslaw-szczotka.github.io"
       }
+    ],
+    "images": [
+      {
+        "src": "images/portfolio-jira-board.webp",
+        "caption": "Jira project board – backlog and development progress."
+      },
+      {
+        "src": "images/portfolio-defect-report.webp",
+        "caption": "Jira defect report – reproduction details and resolution."
+      },
+      {
+        "src": "images/portfolio-deployment.webp",
+        "caption": "GitHub repository and deployment status."
+      },
+      {
+        "src": "images/portfolio-website-overview.webp",
+        "caption": "Portfolio interface before the gallery update."
+      }
     ]
   },
   {
@@ -356,6 +376,17 @@
     "status": "Learning",
     "roadmap": [
       "Further practical exercises and documentation"
+    ],
+    "images": [
+      {
+        "src": "images/linux-system-overview.webp",
+        "caption": "Ubuntu virtual machine – command-line system diagnostics."
+      }
+    ],
+    "tools": "Ubuntu, Bash, VMware Workstation",
+    "features": [
+      "Virtual machine setup",
+      "Basic system diagnostics and file permissions"
     ]
   },
   {
@@ -365,18 +396,40 @@
     "company": "Independent project",
     "icon": "⌘",
     "description": "Laptop-based experimentation with self-hosted services. Dedicated NAS infrastructure is planned.",
-    "overview": "Laptop-based experimentation with self-hosted services. Dedicated NAS infrastructure is planned.",
+    "overview": "Laptop-based home lab running Glance, Portainer and Navidrome in Docker Desktop, with Tailscale and Jellyfin installed directly on Windows. Dedicated NAS infrastructure is planned.",
     "tags": [
       "Docker",
       "Tailscale",
       "Glance",
       "Portainer",
-      "Navidrome"
+      "Navidrome",
+      "Jellyfin"
     ],
     "status": "In Progress",
     "roadmap": [
       "Document prototype services",
       "Dedicated NAS, backup and migration"
-    ]
+    ],
+    "images": [
+      {
+        "src": "images/homelab-docker-overview.webp",
+        "caption": "Docker Desktop – running containers."
+      },
+      {
+        "src": "images/homelab-portainer-containers.webp",
+        "caption": "Portainer – local Docker environment overview."
+      },
+      {
+        "src": "images/homelab-tailscale-network.webp",
+        "caption": "Tailscale – registered Windows and Android devices (identifiers redacted)."
+      }
+    ],
+    "features": [
+      "Container management with Docker Desktop and Portainer",
+      "Glance dashboard and Navidrome music service",
+      "Private remote access with Tailscale",
+      "Jellyfin media server on Windows"
+    ],
+    "tools": "Windows, Docker Desktop, Portainer, Glance, Navidrome, Tailscale, Jellyfin"
   }
 ]
