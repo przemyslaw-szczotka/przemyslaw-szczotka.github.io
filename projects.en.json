@@ -1,0 +1,382 @@
+[
+  {
+    "name": "Care Homes Management System",
+    "category": "healthcare",
+    "client": "Reeson Care Homes Ltd",
+    "company": "Headchannel Consulting Limited",
+    "icon": "✚",
+    "description": "Care documentation, HR modules and configurable reports.",
+    "tags": [
+      "Functional testing",
+      "Reporting",
+      "Regression"
+    ],
+    "period": "November 2022 – February 2023",
+    "overview": "A web-based platform supporting residential care homes in the UK, including electronic care records, employee documentation and customizable reporting.",
+    "features": [
+      "Care records and medication administration",
+      "HR records and staff documentation",
+      "Configurable reports and PDF / Excel export"
+    ],
+    "responsibilities": [
+      "Requirements analysis",
+      "Exploratory and regression testing of care and HR modules",
+      "Verification of report filters and exported data completeness, formatting, charts and pagination"
+    ],
+    "tools": "Jira, Confluence"
+  },
+  {
+    "name": "Claims Management System",
+    "category": "healthcare",
+    "client": "Not specified",
+    "company": "Billennium S.A.",
+    "icon": "⇄",
+    "description": "Healthcare financial document workflows on the Pega platform.",
+    "tags": [
+      "Integration",
+      "Workflow",
+      "Functional testing"
+    ],
+    "period": "November 2021 – December 2022 (Billennium engagement)",
+    "overview": "Pega-based application supporting healthcare financial documents, invoices, payments and obligations, with role-based authorization limits.",
+    "features": [
+      "Financial document workflows",
+      "Role-based access and monetary limits"
+    ],
+    "responsibilities": [
+      "Requirements analysis",
+      "Functional, integration, regression and exploratory testing",
+      "UI/UX verification",
+      "Test cases, defects, reports and user documentation",
+      "Collaboration with developers"
+    ],
+    "tools": "Jira, Azure, HP ALM, Figma, SQL (basic)"
+  },
+  {
+    "name": "Virtual Events HUB",
+    "category": "healthcare",
+    "client": "Roche",
+    "company": "Billennium S.A.",
+    "icon": "▷",
+    "description": "Virtual events and educational content management.",
+    "tags": [
+      "CMS",
+      "UI/UX",
+      "Exploratory"
+    ],
+    "period": "November 2021 – December 2022 (Billennium engagement)",
+    "overview": "Platform for virtual healthcare events, conferences and educational sessions, combining scheduling, content publishing and invitations.",
+    "features": [
+      "Single-day and multi-day events",
+      "Pre-event, live and post-event pages",
+      "Multimedia and comments",
+      "Email invitations and TXT mailing list imports"
+    ],
+    "responsibilities": [
+      "Requirements analysis",
+      "Functional and exploratory testing",
+      "UI/UX verification",
+      "Testing personalized invitations, manual addresses, TXT imports and delivery",
+      "Test cases and defect reporting"
+    ],
+    "tools": "Jira, HP ALM, Figma"
+  },
+  {
+    "name": "Affiliate Resource Center",
+    "category": "healthcare",
+    "client": "Roche",
+    "company": "Billennium S.A.",
+    "icon": "▤",
+    "description": "Medical knowledge platform.",
+    "tags": [
+      "Search",
+      "Functional testing"
+    ],
+    "period": "November 2021 – December 2022 (Billennium engagement)",
+    "overview": "Medical knowledge and resource platform organizing documents and reference materials by subject.",
+    "features": [
+      "Categorized resources",
+      "Search and filtering"
+    ],
+    "responsibilities": [
+      "Exploratory and functional testing",
+      "UI/UX testing",
+      "Reviewing, updating and creating test cases",
+      "Defect reporting and collaboration with developers"
+    ],
+    "tools": "Jira"
+  },
+  {
+    "name": "HCP Locator",
+    "category": "healthcare",
+    "client": "Novo Nordisk",
+    "company": "Billennium S.A.",
+    "icon": "◎",
+    "description": "Healthcare professional search and technical localization.",
+    "tags": [
+      "Localization",
+      "Regression"
+    ],
+    "period": "November 2021 – December 2022 (Billennium engagement)",
+    "overview": "Multilingual platform helping people living with obesity find healthcare professionals and arrange appointments.",
+    "features": [
+      "Provider search and profiles",
+      "Location and accessibility information",
+      "Appointment functionality"
+    ],
+    "responsibilities": [
+      "Requirements analysis",
+      "Exploratory and regression testing",
+      "Localization testing of all 20+ language versions, including layout, visibility and special characters",
+      "Verification of Google Ads and Facebook Ads landing-page redirects",
+      "Verification of traffic sources in Google Analytics"
+    ],
+    "tools": "Google Analytics"
+  },
+  {
+    "name": "EPLAN",
+    "category": "engineering",
+    "client": "Phoenix Contact",
+    "company": "EPLAN Software & Service",
+    "icon": "⚙",
+    "description": "ECAD software and integrations.",
+    "tags": [
+      "Desktop",
+      "Integration"
+    ],
+    "period": "May 2019 – July 2021 (EPLAN engagement)",
+    "overview": "Electrical engineering platform for designing and documenting electrical schematics. Participated in dedicated testing weeks held five times per year.",
+    "features": [
+      "Electrical schematics",
+      "3D cabinet visualization",
+      "Integration with complementary engineering applications"
+    ],
+    "responsibilities": [
+      "Execution of predefined test scenarios during dedicated testing weeks",
+      "Verification of EPLAN functionality and cross-application integrations"
+    ],
+    "tools": "EPLAN, ECAD",
+    "resources": [
+      {
+        "label": "External product video 1",
+        "url": "https://www.youtube.com/watch?v=vaF_LWV2rgE"
+      }
+    ]
+  },
+  {
+    "name": "PROJECT Complete Marking",
+    "category": "engineering",
+    "client": "Phoenix Contact",
+    "company": "EPLAN Software & Service",
+    "icon": "⚙",
+    "description": "Engineering marking application.",
+    "tags": [
+      "Desktop testing"
+    ],
+    "period": "May 2019 – July 2021 (EPLAN engagement)",
+    "overview": "Desktop application for designing and producing industrial identification markers using printers, plotters and laser engraving equipment.",
+    "features": [
+      "Label design and text editing",
+      "Hardware integration",
+      "Marking materials and surfaces",
+      "EPLAN and online shop integration"
+    ],
+    "responsibilities": [
+      "Functional, exploratory and regression testing",
+      "Software interaction with printers, plotters and laser engravers",
+      "Verification of printing and engraving across materials",
+      "Test protocols, defects and sprint QA reports",
+      "Collaboration with developers and customer in Germany",
+      "Creating automated tests using FitNesse (shared project responsibilities)."
+    ],
+    "tools": "TFS, Jenkins, FitNesse, Git, VMware",
+    "team": "2 developers · 2 testers",
+    "resources": [
+      {
+        "label": "External product video 1",
+        "url": "https://www.youtube.com/watch?v=yqKAYWh8UrA"
+      }
+    ]
+  },
+  {
+    "name": "PROJECT Complete Planning",
+    "category": "engineering",
+    "client": "Phoenix Contact",
+    "company": "EPLAN Software & Service",
+    "icon": "⚙",
+    "description": "Engineering planning application.",
+    "tags": [
+      "Desktop testing"
+    ],
+    "period": "May 2019 – July 2021 (EPLAN engagement)",
+    "overview": "Desktop application for planning terminal strip layouts in electrical cabinets and preparing corresponding markings.",
+    "features": [
+      "Terminal strip configuration",
+      "Component selection",
+      "3D visualization",
+      "EPLAN and online shop integration"
+    ],
+    "responsibilities": [
+      "Functional, exploratory and regression testing against specifications",
+      "ECAD integration testing",
+      "Test protocols, defect reporting and sprint QA reports",
+      "Collaboration with developers and customer in Germany",
+      "Creating automated tests using FitNesse (shared project responsibilities)."
+    ],
+    "tools": "TFS, Jenkins, FitNesse, Git, VMware",
+    "team": "4 developers · 2 testers",
+    "resources": [
+      {
+        "label": "External product video 1",
+        "url": "https://www.youtube.com/watch?v=utdce6qnp9Y"
+      },
+      {
+        "label": "External product video 2",
+        "url": "https://www.youtube.com/watch?v=Jw-Io_QSHO4"
+      }
+    ]
+  },
+  {
+    "name": "clipx ENGINEER",
+    "category": "engineering",
+    "client": "Phoenix Contact",
+    "company": "EPLAN Software & Service",
+    "icon": "⚙",
+    "description": "Engineering application.",
+    "tags": [
+      "Desktop testing"
+    ],
+    "period": "May 2019 – July 2021 (EPLAN engagement)",
+    "overview": "Web and desktop engineering application for DIN rails, mounting plates and junction boxes. Participated from an early interactive 3D rail prototype through e-commerce integration.",
+    "features": [
+      "3D component planning",
+      "EPLAN and marking workflows",
+      "Online shop project export",
+      "Distribution block configurator and Proficloud integration"
+    ],
+    "responsibilities": [
+      "Functional, exploratory and regression testing",
+      "End-to-end verification of engineering data and markings across applications",
+      "Validation of complete project export and individual shopping cart items",
+      "Test documentation, defects and sprint QA reports",
+      "Creating automated tests using FitNesse (shared project responsibilities)."
+    ],
+    "tools": "TFS, Jenkins, FitNesse, Git, VMware",
+    "team": "7 developers · 2 testers",
+    "resources": [
+      {
+        "label": "External product video 1",
+        "url": "https://www.youtube.com/watch?v=txwPeKxgEcM"
+      }
+    ]
+  },
+  {
+    "name": "DaCapo",
+    "category": "other",
+    "client": "DaCapo Music Shop",
+    "company": "Headchannel Consulting Limited",
+    "icon": "♫",
+    "description": "Music education application.",
+    "tags": [
+      "Software testing"
+    ],
+    "period": "November 2022 – February 2023",
+    "overview": "Educational web platform supporting music and rhythm learning in UK primary schools, including teachers with limited musical knowledge.",
+    "features": [
+      "Education program preparation",
+      "Interactive music and rhythm activities"
+    ],
+    "responsibilities": [
+      "Manual functionality testing",
+      "Collaboration with project team"
+    ],
+    "tools": "Jira, Confluence",
+    "team": "2 developers · 2 testers · 1 project manager · 1 business analyst"
+  },
+  {
+    "name": "QA Portfolio — Website Development & Testing",
+    "category": "personal",
+    "client": "Personal project",
+    "company": "Independent project (AI-assisted development)",
+    "icon": "⌘",
+    "description": "Design, implementation and testing of a responsive web application presenting professional software testing experience.",
+    "tags": [
+      "Jira",
+      "GitHub",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Manual QA",
+      "CI/CD"
+    ],
+    "period": "November 2026 – Present",
+    "overview": "Personal portfolio and practical QA project using AI-assisted implementation, requirements management and version control.",
+    "features": [
+      "Expandable project cards",
+      "Category and client filters",
+      "Deep links",
+      "Light and dark themes",
+      "GitHub Pages deployment"
+    ],
+    "responsibilities": [
+      "Requirements and acceptance criteria",
+      "Jira backlog management",
+      "AI-assisted implementation",
+      "Manual functional and exploratory testing",
+      "Defect reporting and retesting",
+      "Deployment verification"
+    ],
+    "tools": "HTML, CSS, JavaScript, Git, GitHub, GitHub Pages, GitHub Actions, Jira, ChatGPT",
+    "status": "In Progress",
+    "roadmap": [
+      "Polish language version",
+      "Analytics and consent",
+      "Security review",
+      "Playwright automated testing"
+    ],
+    "resources": [
+      {
+        "label": "GitHub repository",
+        "url": "https://github.com/przemyslaw-szczotka/przemyslaw-szczotka.github.io"
+      }
+    ]
+  },
+  {
+    "name": "Linux — Practical Learning & Administration",
+    "category": "personal",
+    "client": "Personal project",
+    "company": "Independent project",
+    "icon": "⌘",
+    "description": "Personal learning project focusing on Linux command-line fundamentals.",
+    "overview": "Personal learning project focusing on Linux command-line fundamentals.",
+    "tags": [
+      "Linux",
+      "CLI"
+    ],
+    "status": "Learning",
+    "roadmap": [
+      "Further practical exercises and documentation"
+    ]
+  },
+  {
+    "name": "Home Lab — Self-Hosted Services & Secure Remote Access",
+    "category": "personal",
+    "client": "Personal project",
+    "company": "Independent project",
+    "icon": "⌘",
+    "description": "Laptop-based experimentation with self-hosted services. Dedicated NAS infrastructure is planned.",
+    "overview": "Laptop-based experimentation with self-hosted services. Dedicated NAS infrastructure is planned.",
+    "tags": [
+      "Docker",
+      "Tailscale",
+      "Glance",
+      "Portainer",
+      "Navidrome"
+    ],
+    "status": "In Progress",
+    "roadmap": [
+      "Document prototype services",
+      "Dedicated NAS, backup and migration"
+    ]
+  }
+]
