@@ -1,0 +1,467 @@
+[
+  {
+    "name": "Care Homes Management System",
+    "category": "healthcare",
+    "client": "Reeson Care Homes Ltd",
+    "company": "Headchannel Consulting Limited",
+    "icon": "✚",
+    "description": "Dokumentacja opieki, moduły kadrowe i konfigurowalne raporty.",
+    "tags": [
+      "Testy funkcjonalne",
+      "Raportowanie",
+      "Regresja"
+    ],
+    "period": "Listopad 2022 – luty 2023",
+    "overview": "Platforma webowa wspierająca działalność domów opieki w Wielkiej Brytanii, obejmująca elektroniczną dokumentację opieki, dokumentację pracowników i konfigurowalne raportowanie.",
+    "features": [
+      "Dokumentacja opieki i podawania leków",
+      "Dokumentacja kadrowa",
+      "Konfigurowalne raporty i eksport PDF / Excel"
+    ],
+    "responsibilities": [
+      "Analiza wymagań",
+      "Testy eksploracyjne i regresyjne modułów opieki i HR",
+      "Weryfikacja filtrów raportów oraz kompletności, formatowania, wykresów i paginacji eksportowanych danych"
+    ],
+    "tools": "Jira, Confluence",
+    "id": "project-1",
+    "clientId": "Reeson Care Homes Ltd"
+  },
+  {
+    "name": "Claims Management System",
+    "category": "healthcare",
+    "client": "Nie podano",
+    "company": "Billennium S.A.",
+    "icon": "⇄",
+    "description": "Obsługa obiegu dokumentów finansowych w ochronie zdrowia na platformie Pega.",
+    "tags": [
+      "Integracja",
+      "Obieg dokumentów",
+      "Testy funkcjonalne"
+    ],
+    "period": "Listopad 2021 – grudzień 2022 (okres współpracy z Billennium)",
+    "overview": "Aplikacja oparta na Pega, wspierająca obsługę dokumentów finansowych w ochronie zdrowia, faktur, płatności i zobowiązań, z uprawnieniami zależnymi od roli i limitów kwotowych.",
+    "features": [
+      "Obieg dokumentów finansowych",
+      "Dostęp zależny od roli i limity kwotowe"
+    ],
+    "responsibilities": [
+      "Analiza wymagań",
+      "Testy funkcjonalne, integracyjne, regresyjne i eksploracyjne",
+      "Weryfikacja UI/UX",
+      "Przypadki testowe, defekty, raporty i dokumentacja użytkownika",
+      "Współpraca z programistami"
+    ],
+    "tools": "Jira, Azure, HP ALM, Figma, SQL (podstawy)",
+    "id": "project-2",
+    "clientId": "Not specified"
+  },
+  {
+    "name": "Virtual Events HUB",
+    "category": "healthcare",
+    "client": "Roche",
+    "company": "Billennium S.A.",
+    "icon": "▷",
+    "description": "Zarządzanie wydarzeniami wirtualnymi i treściami edukacyjnymi.",
+    "tags": [
+      "CMS",
+      "UI/UX",
+      "Eksploracyjne"
+    ],
+    "period": "Listopad 2021 – grudzień 2022 (okres współpracy z Billennium)",
+    "overview": "Platforma do organizowania wirtualnych wydarzeń medycznych, konferencji i sesji edukacyjnych, łącząca harmonogramowanie, publikację treści i zaproszenia.",
+    "features": [
+      "Wydarzenia jedno- i wielodniowe",
+      "Strony przed wydarzeniem, w jego trakcie i po zakończeniu",
+      "Multimedia i komentarze",
+      "Zaproszenia e-mail i import list odbiorców z TXT"
+    ],
+    "responsibilities": [
+      "Analiza wymagań",
+      "Testy funkcjonalne i eksploracyjne",
+      "Weryfikacja UI/UX",
+      "Testowanie personalizacji zaproszeń, ręcznego wprowadzania adresów, importu TXT i dostarczania wiadomości",
+      "Przypadki testowe i raportowanie defektów"
+    ],
+    "tools": "Jira, HP ALM, Figma",
+    "resources": [
+      {
+        "label": "Roche – IRIDS Virtual Science Talks (publiczny przykład, niepotwierdzone wdrożenie tej platformy)",
+        "url": "https://diagnostics.roche.com/global/en/events/irids-virtual-science-talks.html#recordings"
+      }
+    ],
+    "id": "project-3",
+    "clientId": "Roche"
+  },
+  {
+    "name": "Affiliate Resource Center",
+    "category": "healthcare",
+    "client": "Roche",
+    "company": "Billennium S.A.",
+    "icon": "▤",
+    "description": "Platforma wiedzy medycznej.",
+    "tags": [
+      "Wyszukiwanie",
+      "Testy funkcjonalne"
+    ],
+    "period": "Listopad 2021 – grudzień 2022 (okres współpracy z Billennium)",
+    "overview": "Platforma wiedzy i zasobów medycznych organizująca dokumenty oraz materiały referencyjne według tematów.",
+    "features": [
+      "Zasoby podzielone na kategorie",
+      "Wyszukiwanie i filtrowanie"
+    ],
+    "responsibilities": [
+      "Testy eksploracyjne i funkcjonalne",
+      "Testowanie UI/UX",
+      "Przegląd, aktualizacja i tworzenie przypadków testowych",
+      "Raportowanie defektów i współpraca z programistami"
+    ],
+    "tools": "Jira",
+    "id": "project-4",
+    "clientId": "Roche"
+  },
+  {
+    "name": "HCP Locator",
+    "category": "healthcare",
+    "client": "Novo Nordisk",
+    "company": "Billennium S.A.",
+    "icon": "◎",
+    "description": "Wyszukiwanie specjalistów medycznych i techniczne testy lokalizacji.",
+    "tags": [
+      "Lokalizacja",
+      "Regresja"
+    ],
+    "period": "Listopad 2021 – grudzień 2022 (okres współpracy z Billennium)",
+    "overview": "Wielojęzyczna platforma pomagająca osobom żyjącym z otyłością znaleźć specjalistów medycznych i umawiać wizyty.",
+    "features": [
+      "Wyszukiwanie i profile specjalistów",
+      "Informacje o lokalizacji i dostępności",
+      "Funkcje związane z umawianiem wizyt"
+    ],
+    "responsibilities": [
+      "Analiza wymagań",
+      "Testy eksploracyjne i regresyjne",
+      "Testy lokalizacyjne wszystkich ponad 20 wersji językowych, w tym układu, widoczności treści i znaków specjalnych",
+      "Weryfikacja przekierowań z Google Ads i Facebook Ads na strony docelowe",
+      "Weryfikacja źródeł ruchu w Google Analytics"
+    ],
+    "tools": "Google Analytics",
+    "id": "project-5",
+    "clientId": "Novo Nordisk"
+  },
+  {
+    "name": "EPLAN",
+    "category": "engineering",
+    "client": "Phoenix Contact",
+    "company": "EPLAN Software & Service",
+    "icon": "⚙",
+    "description": "Oprogramowanie ECAD i integracje.",
+    "tags": [
+      "Desktop",
+      "Integracja"
+    ],
+    "period": "Maj 2019 – lipiec 2021 (okres pracy w EPLAN)",
+    "overview": "Platforma inżynierii elektrycznej do projektowania i dokumentowania schematów elektrycznych. Uczestniczyłem w dedykowanych tygodniach testowych organizowanych pięć razy w roku.",
+    "features": [
+      "Schematy elektryczne",
+      "Wizualizacja szaf w 3D",
+      "Integracja z uzupełniającymi aplikacjami inżynierskimi"
+    ],
+    "responsibilities": [
+      "Wykonywanie zdefiniowanych scenariuszy podczas tygodni testowych",
+      "Weryfikacja funkcjonalności EPLAN i integracji między aplikacjami"
+    ],
+    "tools": "EPLAN, ECAD",
+    "resources": [
+      {
+        "label": "Zewnętrzny film produktowy 1",
+        "url": "https://www.youtube.com/watch?v=vaF_LWV2rgE"
+      }
+    ],
+    "id": "project-6",
+    "clientId": "Phoenix Contact"
+  },
+  {
+    "name": "PROJECT Complete Marking",
+    "category": "engineering",
+    "client": "Phoenix Contact",
+    "company": "EPLAN Software & Service",
+    "icon": "⚙",
+    "description": "Aplikacja inżynierska do znakowania.",
+    "tags": [
+      "Testy desktopowe"
+    ],
+    "period": "Maj 2019 – lipiec 2021 (okres pracy w EPLAN)",
+    "overview": "Aplikacja desktopowa do projektowania i wykonywania oznaczeń przemysłowych za pomocą drukarek, ploterów i urządzeń do grawerowania laserowego.",
+    "features": [
+      "Projektowanie etykiet i edycja tekstu",
+      "Integracja sprzętowa",
+      "Materiały i powierzchnie do znakowania",
+      "Integracja z EPLAN i sklepem internetowym"
+    ],
+    "responsibilities": [
+      "Testy funkcjonalne, eksploracyjne i regresyjne",
+      "Testowanie współpracy oprogramowania z drukarkami, ploterami i grawerkami laserowymi",
+      "Weryfikacja drukowania i grawerowania na różnych materiałach",
+      "Protokoły testowe, defekty i raporty QA ze sprintów",
+      "Współpraca z programistami i klientem w Niemczech",
+      "Tworzenie testów automatycznych w FitNesse (wspólny zakres obowiązków projektowych)."
+    ],
+    "tools": "TFS, Jenkins, FitNesse, Git, VMware",
+    "team": "2 programistów · 2 testerów",
+    "resources": [
+      {
+        "label": "Zewnętrzny film produktowy 1",
+        "url": "https://www.youtube.com/watch?v=yqKAYWh8UrA"
+      }
+    ],
+    "id": "project-7",
+    "clientId": "Phoenix Contact"
+  },
+  {
+    "name": "PROJECT Complete Planning",
+    "category": "engineering",
+    "client": "Phoenix Contact",
+    "company": "EPLAN Software & Service",
+    "icon": "⚙",
+    "description": "Aplikacja do planowania inżynierskiego.",
+    "tags": [
+      "Testy desktopowe"
+    ],
+    "period": "Maj 2019 – lipiec 2021 (okres pracy w EPLAN)",
+    "overview": "Aplikacja desktopowa do planowania rozmieszczenia listew zaciskowych w szafach elektrycznych oraz przygotowywania odpowiadających im oznaczeń.",
+    "features": [
+      "Konfiguracja listew zaciskowych",
+      "Dobór komponentów",
+      "Wizualizacja 3D",
+      "Integracja z EPLAN i sklepem internetowym"
+    ],
+    "responsibilities": [
+      "Testy funkcjonalne, eksploracyjne i regresyjne zgodnie ze specyfikacją",
+      "Testowanie integracji ECAD",
+      "Protokoły testowe, defekty i raporty QA ze sprintów",
+      "Współpraca z programistami i klientem w Niemczech",
+      "Tworzenie testów automatycznych w FitNesse (wspólny zakres obowiązków projektowych)."
+    ],
+    "tools": "TFS, Jenkins, FitNesse, Git, VMware",
+    "team": "4 programistów · 2 testerów",
+    "resources": [
+      {
+        "label": "Zewnętrzny film produktowy 1",
+        "url": "https://www.youtube.com/watch?v=utdce6qnp9Y"
+      },
+      {
+        "label": "Zewnętrzny film produktowy 2",
+        "url": "https://www.youtube.com/watch?v=Jw-Io_QSHO4"
+      }
+    ],
+    "id": "project-8",
+    "clientId": "Phoenix Contact"
+  },
+  {
+    "name": "clipx ENGINEER",
+    "category": "engineering",
+    "client": "Phoenix Contact",
+    "company": "EPLAN Software & Service",
+    "icon": "⚙",
+    "description": "Aplikacja inżynierska.",
+    "tags": [
+      "Testy desktopowe"
+    ],
+    "period": "Maj 2019 – lipiec 2021 (okres pracy w EPLAN)",
+    "overview": "Aplikacja webowa i desktopowa do projektowania szyn DIN, płyt montażowych i puszek przyłączeniowych. Uczestniczyłem w projekcie od wczesnego interaktywnego prototypu szyny 3D aż do integracji ze sklepem internetowym.",
+    "features": [
+      "Planowanie komponentów w 3D",
+      "Procesy projektowe EPLAN i Marking",
+      "Eksport projektu do sklepu internetowego",
+      "Integracja z konfiguratorem bloków rozdzielczych i Proficloud"
+    ],
+    "responsibilities": [
+      "Testy funkcjonalne, eksploracyjne i regresyjne",
+      "Weryfikacja end-to-end danych inżynierskich i oznaczeń między aplikacjami",
+      "Walidacja eksportu całego projektu i poszczególnych pozycji w koszyku",
+      "Dokumentacja testowa, defekty i raporty QA ze sprintów",
+      "Tworzenie testów automatycznych w FitNesse (wspólny zakres obowiązków projektowych)."
+    ],
+    "tools": "TFS, Jenkins, FitNesse, Git, VMware",
+    "team": "7 programistów · 2 testerów",
+    "resources": [
+      {
+        "label": "Zewnętrzny film produktowy 1",
+        "url": "https://www.youtube.com/watch?v=txwPeKxgEcM"
+      }
+    ],
+    "id": "project-9",
+    "clientId": "Phoenix Contact"
+  },
+  {
+    "name": "DaCapo",
+    "category": "other",
+    "client": "DaCapo Music Shop",
+    "company": "Headchannel Consulting Limited",
+    "icon": "♫",
+    "description": "Aplikacja do edukacji muzycznej.",
+    "tags": [
+      "Testowanie oprogramowania"
+    ],
+    "period": "Listopad 2022 – luty 2023",
+    "overview": "Platforma edukacyjna wspierająca naukę muzyki i rytmiki w brytyjskich szkołach podstawowych, także w pracy nauczycieli z ograniczoną wiedzą muzyczną.",
+    "features": [
+      "Przygotowywanie programów edukacyjnych",
+      "Interaktywne ćwiczenia muzyczne i rytmiczne"
+    ],
+    "responsibilities": [
+      "Manualne testowanie funkcjonalności",
+      "Współpraca z zespołem projektowym"
+    ],
+    "tools": "Jira, Confluence",
+    "team": "2 programistów · 2 testerów · 1 kierownik projektu · 1 analityk biznesowy",
+    "id": "project-10",
+    "clientId": "DaCapo Music Shop"
+  },
+  {
+    "name": "Portfolio QA — tworzenie i testowanie strony",
+    "category": "personal",
+    "client": "Projekt osobisty",
+    "company": "Projekt własny (implementacja wspierana przez AI)",
+    "icon": "⌘",
+    "description": "Projektowanie, implementacja i testowanie responsywnej aplikacji webowej prezentującej doświadczenie testerskie.",
+    "tags": [
+      "Jira",
+      "GitHub",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Manual QA",
+      "CI/CD"
+    ],
+    "period": "Listopad 2026 – obecnie",
+    "overview": "Osobiste portfolio i praktyczny projekt QA wykorzystujący implementację wspieraną przez AI, zarządzanie wymaganiami i kontrolę wersji.",
+    "features": [
+      "Rozwijane karty projektów",
+      "Filtry kategorii i klientów",
+      "Bezpośrednie odnośniki do sekcji",
+      "Motyw jasny i ciemny",
+      "Wdrożenie przez GitHub Pages",
+      "Katalog projektów oparty na JSON",
+      "Galerie screenshotów",
+      "Wersje językowe EN i PL"
+    ],
+    "responsibilities": [
+      "Wymagania i kryteria akceptacji",
+      "Zarządzanie backlogiem w Jira",
+      "Implementacja wspierana przez AI",
+      "Manualne testy funkcjonalne i eksploracyjne",
+      "Raportowanie defektów i retesty",
+      "Weryfikacja wdrożeń"
+    ],
+    "tools": "HTML, CSS, JavaScript, Git, GitHub, GitHub Pages, GitHub Actions, Jira, ChatGPT, JSON",
+    "status": "W realizacji",
+    "roadmap": [
+      "Analityka i zgody",
+      "Przegląd bezpieczeństwa",
+      "Testy automatyczne Playwright"
+    ],
+    "resources": [
+      {
+        "label": "Repozytorium GitHub",
+        "url": "https://github.com/przemyslaw-szczotka/przemyslaw-szczotka.github.io"
+      }
+    ],
+    "images": [
+      {
+        "src": "images/portfolio-jira-board.webp",
+        "caption": "Tablica Jira – backlog i postęp prac."
+      },
+      {
+        "src": "images/portfolio-defect-report.webp",
+        "caption": "Zgłoszenie defektu w Jira – odtworzenie i rozwiązanie."
+      },
+      {
+        "src": "images/portfolio-deployment.webp",
+        "caption": "Repozytorium GitHub i status wdrożenia."
+      },
+      {
+        "src": "images/portfolio-website-overview.webp",
+        "caption": "Interfejs portfolio przed aktualizacją galerii."
+      }
+    ],
+    "id": "project-11",
+    "clientId": "Personal project"
+  },
+  {
+    "name": "Linux — nauka i administracja w praktyce",
+    "category": "personal",
+    "client": "Projekt osobisty",
+    "company": "Projekt własny",
+    "icon": "⌘",
+    "description": "Projekt edukacyjny skupiony na podstawach wiersza poleceń Linuxa.",
+    "overview": "Projekt edukacyjny skupiony na podstawach wiersza poleceń Linuxa.",
+    "tags": [
+      "Linux",
+      "CLI"
+    ],
+    "status": "Nauka",
+    "roadmap": [
+      "Dalsze ćwiczenia praktyczne i dokumentacja"
+    ],
+    "images": [
+      {
+        "src": "images/linux-system-overview.webp",
+        "caption": "Maszyna wirtualna Ubuntu – diagnostyka w wierszu poleceń."
+      }
+    ],
+    "tools": "Ubuntu, Bash, VMware Workstation",
+    "features": [
+      "Konfiguracja maszyny wirtualnej",
+      "Podstawowa diagnostyka systemu i uprawnienia plików"
+    ],
+    "id": "project-12",
+    "clientId": "Personal project"
+  },
+  {
+    "name": "Home Lab — własne usługi i bezpieczny zdalny dostęp",
+    "category": "personal",
+    "client": "Projekt osobisty",
+    "company": "Projekt własny",
+    "icon": "⌘",
+    "description": "Eksperymenty z własnymi usługami na laptopie. Planowana infrastruktura NAS.",
+    "overview": "Home Lab na laptopie z Glance, Portainerem i Navidrome w Docker Desktop oraz Tailscale i Jellyfin zainstalowanymi bezpośrednio w Windows. Planowana jest dedykowana infrastruktura NAS.",
+    "tags": [
+      "Docker",
+      "Tailscale",
+      "Glance",
+      "Portainer",
+      "Navidrome",
+      "Jellyfin"
+    ],
+    "status": "W realizacji",
+    "roadmap": [
+      "Dokumentacja usług prototypowych",
+      "Dedykowany NAS, kopie zapasowe i migracja"
+    ],
+    "images": [
+      {
+        "src": "images/homelab-docker-overview.webp",
+        "caption": "Docker Desktop – uruchomione kontenery."
+      },
+      {
+        "src": "images/homelab-portainer-containers.webp",
+        "caption": "Portainer – widok lokalnego środowiska Docker."
+      },
+      {
+        "src": "images/homelab-tailscale-network.webp",
+        "caption": "Tailscale – zarejestrowane urządzenia Windows i Android (identyfikatory zakryte)."
+      }
+    ],
+    "features": [
+      "Zarządzanie kontenerami w Docker Desktop i Portainer",
+      "Dashboard Glance i serwer muzyczny Navidrome",
+      "Prywatny zdalny dostęp przez Tailscale",
+      "Serwer multimediów Jellyfin w Windows"
+    ],
+    "tools": "Windows, Docker Desktop, Portainer, Glance, Navidrome, Tailscale, Jellyfin",
+    "id": "project-13",
+    "clientId": "Personal project"
+  }
+]

@@ -23,7 +23,9 @@
       "Exploratory and regression testing of care and HR modules",
       "Verification of report filters and exported data completeness, formatting, charts and pagination"
     ],
-    "tools": "Jira, Confluence"
+    "tools": "Jira, Confluence",
+    "id": "project-1",
+    "clientId": "Reeson Care Homes Ltd"
   },
   {
     "name": "Claims Management System",
@@ -50,7 +52,9 @@
       "Test cases, defects, reports and user documentation",
       "Collaboration with developers"
     ],
-    "tools": "Jira, Azure, HP ALM, Figma, SQL (basic)"
+    "tools": "Jira, Azure, HP ALM, Figma, SQL (basic)",
+    "id": "project-2",
+    "clientId": "Not specified"
   },
   {
     "name": "Virtual Events HUB",
@@ -79,7 +83,15 @@
       "Testing personalized invitations, manual addresses, TXT imports and delivery",
       "Test cases and defect reporting"
     ],
-    "tools": "Jira, HP ALM, Figma"
+    "tools": "Jira, HP ALM, Figma",
+    "resources": [
+      {
+        "label": "Roche – IRIDS Virtual Science Talks (public example, not a verified implementation of this platform)",
+        "url": "https://diagnostics.roche.com/global/en/events/irids-virtual-science-talks.html#recordings"
+      }
+    ],
+    "id": "project-3",
+    "clientId": "Roche"
   },
   {
     "name": "Affiliate Resource Center",
@@ -104,7 +116,9 @@
       "Reviewing, updating and creating test cases",
       "Defect reporting and collaboration with developers"
     ],
-    "tools": "Jira"
+    "tools": "Jira",
+    "id": "project-4",
+    "clientId": "Roche"
   },
   {
     "name": "HCP Locator",
@@ -131,7 +145,9 @@
       "Verification of Google Ads and Facebook Ads landing-page redirects",
       "Verification of traffic sources in Google Analytics"
     ],
-    "tools": "Google Analytics"
+    "tools": "Google Analytics",
+    "id": "project-5",
+    "clientId": "Novo Nordisk"
   },
   {
     "name": "EPLAN",
@@ -161,7 +177,9 @@
         "label": "External product video 1",
         "url": "https://www.youtube.com/watch?v=vaF_LWV2rgE"
       }
-    ]
+    ],
+    "id": "project-6",
+    "clientId": "Phoenix Contact"
   },
   {
     "name": "PROJECT Complete Marking",
@@ -196,7 +214,9 @@
         "label": "External product video 1",
         "url": "https://www.youtube.com/watch?v=yqKAYWh8UrA"
       }
-    ]
+    ],
+    "id": "project-7",
+    "clientId": "Phoenix Contact"
   },
   {
     "name": "PROJECT Complete Planning",
@@ -234,7 +254,9 @@
         "label": "External product video 2",
         "url": "https://www.youtube.com/watch?v=Jw-Io_QSHO4"
       }
-    ]
+    ],
+    "id": "project-8",
+    "clientId": "Phoenix Contact"
   },
   {
     "name": "clipx ENGINEER",
@@ -268,7 +290,9 @@
         "label": "External product video 1",
         "url": "https://www.youtube.com/watch?v=txwPeKxgEcM"
       }
-    ]
+    ],
+    "id": "project-9",
+    "clientId": "Phoenix Contact"
   },
   {
     "name": "DaCapo",
@@ -291,7 +315,9 @@
       "Collaboration with project team"
     ],
     "tools": "Jira, Confluence",
-    "team": "2 developers · 2 testers · 1 project manager · 1 business analyst"
+    "team": "2 developers · 2 testers · 1 project manager · 1 business analyst",
+    "id": "project-10",
+    "clientId": "DaCapo Music Shop"
   },
   {
     "name": "QA Portfolio — Website Development & Testing",
@@ -318,7 +344,8 @@
       "Light and dark themes",
       "GitHub Pages deployment",
       "JSON-based project catalogue",
-      "Screenshot galleries"
+      "Screenshot galleries",
+      "English and Polish language versions"
     ],
     "responsibilities": [
       "Requirements and acceptance criteria",
@@ -328,10 +355,9 @@
       "Defect reporting and retesting",
       "Deployment verification"
     ],
-    "tools": "HTML, CSS, JavaScript, Git, GitHub, GitHub Pages, GitHub Actions, Jira, ChatGPT",
+    "tools": "HTML, CSS, JavaScript, Git, GitHub, GitHub Pages, GitHub Actions, Jira, ChatGPT, JSON",
     "status": "In Progress",
     "roadmap": [
-      "Polish language version",
       "Analytics and consent",
       "Security review",
       "Playwright automated testing"
@@ -359,7 +385,9 @@
         "src": "images/portfolio-website-overview.webp",
         "caption": "Portfolio interface before the gallery update."
       }
-    ]
+    ],
+    "id": "project-11",
+    "clientId": "Personal project"
   },
   {
     "name": "Linux — Practical Learning & Administration",
@@ -387,7 +415,9 @@
     "features": [
       "Virtual machine setup",
       "Basic system diagnostics and file permissions"
-    ]
+    ],
+    "id": "project-12",
+    "clientId": "Personal project"
   },
   {
     "name": "Home Lab — Self-Hosted Services & Secure Remote Access",
@@ -430,6 +460,8 @@
       "Private remote access with Tailscale",
       "Jellyfin media server on Windows"
     ],
-    "tools": "Windows, Docker Desktop, Portainer, Glance, Navidrome, Tailscale, Jellyfin"
+    "tools": "Windows, Docker Desktop, Portainer, Glance, Navidrome, Tailscale, Jellyfin",
+    "id": "project-13",
+    "clientId": "Personal project"
   }
 ]
